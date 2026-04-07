@@ -1,0 +1,65 @@
+artifact_path: mlflow-artifacts:/1/models/m-df7fd88dadd743fc82ba2387ebb85326/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.10.12
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.10.0+cu128
+metadata:
+  class_names:
+  - Alejandro Toledo
+  - Alvaro Uribe
+  - Andre Agassi
+  - Ariel Sharon
+  - Arnold Schwarzenegger
+  - Colin Powell
+  - David Beckham
+  - Donald Rumsfeld
+  - George W Bush
+  - Gerhard Schroeder
+  - Gloria Macapagal Arroyo
+  - Guillermo Coria
+  - Hans Blix
+  - Hugo Chavez
+  - Jacques Chirac
+  - Jean Chretien
+  - Jennifer Capriati
+  - John Ashcroft
+  - John Negroponte
+  - Junichiro Koizumi
+  - Kofi Annan
+  - Laura Bush
+  - Lleyton Hewitt
+  - Luiz Inacio Lula da Silva
+  - Megawati Sukarnoputri
+  - Nestor Kirchner
+  - Recep Tayyip Erdogan
+  - Roh Moo-hyun
+  - Serena Williams
+  - Silvio Berlusconi
+  - Tom Ridge
+  - Tony Blair
+  - Vicente Fox
+  - Vladimir Putin
+  dropout: 0.3
+  hidden_dims:
+  - 512
+  - 256
+  input_dim: 128
+  n_classes: 34
+mlflow_version: 3.10.1
+model_id: m-df7fd88dadd743fc82ba2387ebb85326
+model_size_bytes: 844515
+model_uuid: m-df7fd88dadd743fc82ba2387ebb85326
+prompts: null
+run_id: 8a8a604813994815bfce78c34bf0422e
+utc_time_created: '2026-04-07 00:37:54.368982'
